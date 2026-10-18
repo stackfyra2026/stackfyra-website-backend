@@ -1,0 +1,65 @@
+# Compiled output
+/dist
+/build
+*.tsbuildinfo
+
+# Node dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Environment variables & secrets (Never commit secrets!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# Service account & private key files
+*firebase*.json
+service-account*.json
+*.pem
+*.key
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test coverage & reports
+/coverage
+*.lcov
+.nyc_output
+
+# Editor & IDE configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary & cache directories
+.cache
+/tmp
+/temp
